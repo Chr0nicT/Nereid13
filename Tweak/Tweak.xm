@@ -122,17 +122,12 @@ BOOL hasArtwork = NO;
 
 %end
 
-%hook SBDashBoardNotificationAdjunctListViewController
+%hook CSNotificationAdjunctListViewController
 
 -(id)init {
     %orig;
     adjunctListViewController = self;
     return self;
-}
-
--(BOOL)_shouldShowMediaControls {
-    if (alwaysShowPlayer) return YES;
-    return %orig;
 }
 
 -(BOOL)isShowingMediaControls {
