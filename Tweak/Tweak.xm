@@ -34,7 +34,7 @@ CGFloat alpha = 1; //default 0.667
 
 UniversalNRDController *lastController = nil;
 SBFLockScreenDateView *lastDateView = nil;
-SBDashBoardNotificationAdjunctListViewController *adjunctListViewController = nil;
+CSNotificationAdjunctListViewController *adjunctListViewController = nil;
 
 BOOL isShuffle = 0;
 int isRepeat = 0;
