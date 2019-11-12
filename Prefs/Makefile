@@ -1,6 +1,6 @@
 ARCHS = arm64 arm64e
-TARGET = iphone:clang:11.2:11.2
-
+TARGET = iphone:clang:13.0:11.2
+DEBUG=0
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = NereidPrefs
