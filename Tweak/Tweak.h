@@ -14,19 +14,19 @@
 
 @end
 
-@interface SBDashBoardAdjunctItemView : UIView
+@interface CSAdjunctItemView : UIView
 
 @property (nonatomic, retain) UIView *backgroundMaterialView;
 
 @end
 
-@interface SBDashBoardViewController : UIViewController
+@interface SBLockScreenViewControllerBase : UIViewController
 
 @property (nonatomic, retain) UIImageView *nrdArtworkView;
 
 @end
 
-@interface SBDashBoardNotificationAdjunctListViewController : UIViewController
+@interface CSNotificationAdjunctListViewController : UIViewController
 
 -(BOOL)isShowingMediaControls;
 -(BOOL)isPresentingContent;
