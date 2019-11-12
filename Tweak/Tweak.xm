@@ -144,7 +144,7 @@ BOOL hasArtwork = NO;
 
 %end
 
-%hook SBDashBoardAdjunctItemView
+%hook CSAdjunctItemView
 
 %new
 -(id)valueForUndefinedKey:(NSString *)key {
@@ -264,7 +264,7 @@ BOOL hasArtwork = NO;
 
 %end
 
-%hook SBDashBoardViewController
+%hook SBLockScreenViewControllerBase
 
 %property (nonatomic, retain) UIImageView *nrdArtworkView;
 
